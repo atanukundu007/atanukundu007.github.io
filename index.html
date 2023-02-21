@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+    	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Atanu's personal webpage</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     </head>
     <body>
         <header>
         	<!-- To remove the own pic in the header.
             <img src="./ppic.jpg" class="profile-img">
-            -->
+            
             <nav>
                 <ul>
                     <li><a href="#hero">Home</a></li>
@@ -20,10 +23,69 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Atanu</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#qualificatios">Qualificatios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#publications">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#research_inetest">Research Inetest</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+        </li>
+        
+        <!--
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      -->
+    </div>
+  </div>
+</nav>
         </header>
         <main>
-             <section id="hero">
+             <section id="home">
                 <div class="section-inner">
+                <h2 class="text-danger"> This website is under maintance.</h2>
                     <img src="./ppic.jpg" class="profile-img">
                     <h1>Atanu Kundu</h1>
                     <h2> SRF at the School of Mathematical and Computational Sciences</h2>
@@ -31,17 +93,82 @@
                 </div>
             </section>
            <section id="about">
-                <div class="section-inner">
-                    <h2>About me</h2>
-                    <p>Hi!, I'm Atanu Kundu from a rural village situated in Bankura district in West Bengal, India. Currenly I am living with my parents in the city of joy Kolkata for my Ph.D degree. I born and broght up in a joint family, from which I learned about how to respect our seniors, love to colleges, and motivate our juniors in whatever be the situations. I think that's why I have an extra ability in management.</p>   
+           		<div class="card text-center">
+			  <div class="card-header">
+			  <h2 class="text-danger"> This website is under maintance.</h2>
+			    <h2>About me</h2>
+		       </div>
+			  <div class="card-body">
+			    <h3 class="card-title">Hi!, I'm Atanu Kundu from a rural village situated in Bankura district in West Bengal, India. Currently I am living with my parents in the city of joy Kolkata for my Ph.D degree. I born and broght up in a joint family, from which I learned about how to respect our seniors, love to colleges, and motivate our juniors in whatever be the situations. I think that's why I have an extra ability in management.</h3>
+			  </div>
+			</div>
                 </div>
             </section>
+            
             <section id="qualificatios">
+            	<div class="section">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Education Qualifications</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-0 bg-info" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            
+            <div class="h5">Persuing Ph.D in Computer Science from IACS Kolkata</div>
+            <p>2020 - present</p>
+          </div>
+        </div>
+       <!-- <div class="col-md-12" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Master of Information Technology</div>
+            <p class="category">University of Computer Science</p>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-0 bg-info" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            
+            <div class="h5">Master's degree in Computer Science from <a href="https://www.visvabharati.ac.in/">Visva-Bharati</a>, India with CGPA 07.93</div>
+            <p>2016 - 2018</p>
+          </div>
+        </div>
+       <!-- <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Bachelor of Computer Science</div>
+            <p class="category">University of Computer Science</p>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-0 bg-info" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            
+            <div class="h5">Bachelor's degree in Computer Science from <a href="https://buruniv.ac.in/">The Burdwan University </a>, India with 66 %</div>
+            <p>2013 - 2016</p>
+          </div>
+        </div>
+      <!--  <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Science and Mathematics</div>
+            <p class="category">School of Secondary board</p>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+            	<!--
                 <div class="section-inner">
                     <h2> Educational Qualifications: </h2>
-                    <!--
-                    <style> li {font-size: 30px;} </style>
-                    -->
+                    
                     <ul>
                     	<li>Senior Research Fellow at <a href="http://iacs.res.in/">IACS</a>, Kolkata, W.B. (2020 - present)</li>
 				<li>Master's Degree in Computer Science, <a href="https://www.visvabharati.ac.in/">Visva-Bharati University </a>, W.B. (2016 - 2018)</li>
@@ -50,16 +177,63 @@
 				<li>Secondary Educations from W.B.B.S.E in 2010</li>
 			 </ul>
                 </div>
+                -->
             </section>   
             <section id="publications">
-                <div class="section-inner">
-                    <h2> Publications </h2>
-                </div>
+            
+            <div class="card" ><h2>Publications</h2>
+                <div class="card-body">
+			    <h5 class="card-title">Atanu Kundu, Sarthak Das, Rajarshi Ray. SAT-Reach: A Bounded Model Checking for Affine Hybrid Systems. ACM Transactions on Embedded Computing Systems. 22(2), January 2023.</h5>
+			    <p class="card-text">gist of the paper.</p> 
+			    <a href="https://dl.acm.org/doi/abs/10.1145/3567425" class="btn btn-primary">Go to the paper</a>
+ 		  </div>
+ 		   <div class="card-body">
+			    <h5 class="card-title">Lei Bu, Goran Frehse, Atanu Kundu, Rajarshi Ray, Yuhui Shi, and Enea Zaffanella. Arch-comp22 category report: Hybrid systems with piecewise constant dynamics and bounded model checking. In Proceedings of 9th International Workshop on Applied, volume 90, pages 44–57, 2022.</h5>
+			    <p class="card-text">gist of the paper.</p> 
+			    <a href="https://easychair.org/publications/paper/22kG" class="btn btn-primary">Go to the paper</a>
+ 		  </div>
+ 		  
+ 		</div>  
             </section>
             <section id="research_inetest">
-                <div class="section-inner">
-                    <h2> Research interest </h2>
-                </div>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+			  <div class="col">
+			    <div class="card">
+			<!--	<img src="..." class="card-img-top" alt="..."> -->
+				<div class="card-body">
+				  <h5 class="card-title">Bounded Model Checking</h5>
+				  <p class="card-text">Describe what it is.</p>
+				</div>
+			    </div>
+			  </div>
+			  <div class="col">
+			    <div class="card">
+			<!--	<img src="..." class="card-img-top" alt="..."> -->
+				<div class="card-body">
+				  <h5 class="card-title">Hybrid Systems</h5>
+				  <p class="card-text">Describe what it is.</p>
+				</div>
+			    </div>
+			  </div>
+			  <div class="col">
+			    <div class="card">
+			<!--	<img src="..." class="card-img-top" alt="..."> -->
+				<div class="card-body">
+				  <h5 class="card-title">Formal Verifications</h5>
+				  <p class="card-text">Describe what it is.</p>
+				</div>
+			    </div>
+			  </div>
+			  <div class="col">
+			    <div class="card">
+			<!--	<img src="..." class="card-img-top" alt="..."> -->
+				<div class="card-body">
+				  <h5 class="card-title">Machine Learning</h5>
+				  <p class="card-text">Describe what it is.</p>
+				</div>
+			    </div>
+			  </div>
+		   </div>
             </section>
             <section id="resume">
                 <div class="section-inner">
@@ -75,12 +249,23 @@
                         <li><a href="https://www.linkedin.com/in/atanu-kundu-236a10193/">Linked In</a></li>
                         <li><a href="https://gitlab.com/Atanukundu">GitLab</a></li>
                     </ul>
-                    <p>Or, you can <a href="mailto:llama@codetheweb.blog">send me an email</a>.</p>
+                    <p>Or, you can <a href="mailto:atanu94kundu@gmail.com">send me an email</a>.</p>
                 </div>
             </section>
         </main>
         <footer>
             © Copyright Atanu Kundu, 2023
         </footer>
+        <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/aos.js?ver=1.1.0"></script>
+        <script>
+        	$(document).ready(function() {
+		  AOS.init( {
+		    // uncomment below for on-scroll animations to played only once
+		    // once: true  
+		  }); // initialize animate on scroll library
+		});
+	 </script>
     </body>
+
 </html>
